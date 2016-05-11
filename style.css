@@ -35,7 +35,7 @@ header span {
     top: 1rem;
     left: 15rem;
     font-size: 0.8rem;
-    color: rgb(169,77,88);
+    color: #ff5f5f;
 	font-family: Open Sans Semibold;
 }
 header nav {
@@ -85,12 +85,15 @@ header ul li {
 	margin-right: 2rem;
 	float: left;
 }
-.post p:first-child(1) {
-	margin: 0;
-}
 .post p {
 	font-size: 0.8rem;
 	margin-top: 2.5rem;
+}
+.firstP {
+	margin-top: 0 !important;
+}
+.post p:last-child {
+	width: 70%;
 }
 footer {
 	height: 270px;
@@ -107,14 +110,15 @@ footer {
 .logo-footer h1 {
 	color: rgb(90,169,248);
 	font-size: 3rem;
+	font-family: Minion Pro Bold;
 }
 .logo-footer span {
 	position: relative;
-    bottom: 3.5rem;
-    left: 12.7rem;
-    font-size: 0.7rem;
-    color: rgb(169,77,88);
-    font-weight: bold;
+    bottom: 4rem;
+    left: 12rem;
+    font-size: 1rem;
+    color: #ff5f5f;
+	font-family: Open Sans Semibold;
 }
 .data-box {
 	width: 70%;
@@ -139,10 +143,11 @@ footer {
 	font-size: 0.5rem;
 }
 .adress ul li {
-	background: url('img/pointer.png') no-repeat 75% 103%;
+	background: url('img/pointer.png') no-repeat 90% 100%;
 }
 .footer-info span {
 	font-size: 0.7rem;
+	color: #939fb1;
 }
 .footer-info {
 	margin: 1rem 5rem 1rem 5rem;
