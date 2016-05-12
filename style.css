@@ -20,25 +20,17 @@ header {
 	background: rgb(44,62,86);
 }
 .header-inner, .content, footer {
-	margin-left: 5rem;
-	margin-right: 5rem;
+	margin-left: 100px;
+	margin-right: 100px;
 }
-header h1 {
-	display: inline-block;
-	font-size: 2.5rem;
-	padding-top: 1.2rem;
-	color: rgb(90,169,248);
-	font-family: Minion Pro Bold;
+.header-inner img {
+	margin-top: 17px;
 }
-header span {
-	position: absolute;
-    top: 1rem;
-    left: 15rem;
-    font-size: 0.8rem;
-    color: #ff5f5f;
-	font-family: Open Sans Semibold;
+.main-item {
+	font-size: 40px;
+	display: none;
 }
-header nav {
+.menu {
 	display: inline-block;
 	float: right;
 	margin-top: 2rem;
@@ -77,9 +69,12 @@ header ul li {
 	font-size: 0.7rem;
 	color: rgb(123,129,139);
 }
+.post h1 {
+	margin-bottom: 20px;
+}
 .post .picture {
-    width: 40%;
-    height: 350px;
+    max-width: 100%;
+    height: auto;
 	background: rgb(255,232,189);
 	overflow: hidden;
 	margin-right: 2rem;
@@ -96,7 +91,7 @@ header ul li {
 	width: 70%;
 }
 footer {
-	height: 270px;
+	padding-bottom: 40px;
 	border-top: 1px solid rgb(123,129,139);
 	border-bottom: 1px solid rgb(123,129,139);
 	clear: both;
@@ -106,19 +101,6 @@ footer {
 	display: inline-block;
     margin-top: 6.5rem;
     width: 29%;
-}
-.logo-footer h1 {
-	color: rgb(90,169,248);
-	font-size: 3rem;
-	font-family: Minion Pro Bold;
-}
-.logo-footer span {
-	position: relative;
-    bottom: 4rem;
-    left: 12rem;
-    font-size: 1rem;
-    color: #ff5f5f;
-	font-family: Open Sans Semibold;
 }
 .data-box {
 	width: 70%;
@@ -142,15 +124,18 @@ footer {
 .data-box span {
 	font-size: 0.5rem;
 }
-.adress ul li {
+.adress ul li a {
 	background: url('img/pointer.png') no-repeat 90% 100%;
+	padding: 10px 15px 0 15px;
 }
 .footer-info span {
-	font-size: 0.7rem;
+	font-size: 13px;
 	color: #939fb1;
+	float: left;
 }
 .footer-info {
 	margin: 1rem 5rem 1rem 5rem;
+	height: 40px;
 }
 .footer-info .tatar {
 	float: right;

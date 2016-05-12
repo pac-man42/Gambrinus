@@ -1,0 +1,126 @@
+@media screen and (max-width: 1100px) {
+	.menu {
+		display: none;
+	}
+	.main-item {
+		display: inline-block;
+		float: right;
+		margin-top: 20px;
+		color: #000;
+		font-size: 40px;
+	}
+	.data-box div {
+		text-align: center; 
+		display: block; 
+		float: none; 
+		margin: 0 auto;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.logo-footer {
+		margin: 0 auto;
+		display: block;
+		width: 33%;
+		margin: 0 auto;
+	}
+	.picture {
+		width: 40%;
+		height: auto;
+	}
+	footer {
+		padding-top: 20px;
+		}
+	.data-box {
+		width: 100%;
+		margin-top: 0;
+	}
+	.data-box li {
+		margin-top: 0;
+	}
+	.data-box span {
+		margin-bottom: 10px;
+	}
+
+	.post h1 {
+		font-size: 1.5em;
+	}
+
+	.post p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 920px) {
+	.header-inner img {
+		width: 200px;
+		height: 40px;
+	}
+	.header-inner, .content, footer {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+	.main-item {
+		font-size: 30px;
+	}
+
+	.post h1 {
+		font-size: 1rem;
+	}
+	.post p {
+		font-size: 11px;
+		margin-top: 20px;
+	}
+	.post .data {
+		font-size: 10px;
+	}
+	.content nav a {
+		font-size: 10px;
+	}
+	.content nav {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	.post .picture {
+		float: none;
+		width: 60%;
+		margin-bottom: 10px;
+}
+	.logo-footer {
+		width: 40%
+	}
+	footer {
+		margin-top: 50px;
+	}
+	.data-box h2 {
+		font-size: 13px;
+	}
+	.footer-info span {
+		font-size: 11px;
+	}
+	.footer-info {
+		margin: 10px 20px 10px 20px;
+		height: 10px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.header-inner, .content, footer {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+	.post .picture {
+		float: none;
+		width: 90%;
+		margin-bottom: 10px;
+}
+	.footer-info span {
+		font-size: 9px;
+	}
+	.logo-footer {
+		width: 58%;
+	}
+	.footer-info {
+		margin: 10px 20px 10px 20px;
+		height: 20px;
+	}
+}
